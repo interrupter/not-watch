@@ -1,6 +1,6 @@
 {
   "name": "not-watch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utilities for watching file trees and files in node.js. Variant of 'watch' npm package by mikeal (https://github.com/mikeal/watch) with support of files watching.",
   "main": "main.js",
   "bin": {

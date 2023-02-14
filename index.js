@@ -6,7 +6,7 @@ import path from "node:path";
 import * as watch from "./main.js";
 
 const argv = minimist(process.argv.slice(2));
-console.log(argv);
+
 if (argv._.length === 0) {
     console.error(
         [
