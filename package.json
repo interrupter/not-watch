@@ -1,0 +1,33 @@
+{
+  "name": "not-watch",
+  "version": "0.0.1",
+  "description": "Utilities for watching file trees and files in node.js. Variant of 'watch' npm package by mikeal (https://github.com/mikeal/watch) with support of files watching.",
+  "main": "main.js",
+  "bin": {
+    "not-watch": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interrupter/not-watch.git"
+  },
+  "keywords": [
+    "nodejs",
+    "watch",
+    "dir",
+    "files"
+  ],
+  "author": "interrupter <alex.repin@mail.ru> (http://github.com/interrupter)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/interrupter/not-watch/issues"
+  },
+  "homepage": "https://github.com/interrupter/not-watch#readme",
+  "dependencies": {
+    "exec-sh": "^0.4.0",
+    "minimist": "^1.2.8"
+  }
+}
